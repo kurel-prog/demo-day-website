@@ -1,0 +1,301 @@
+.intro-1 {
+    height: 70%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-1-content {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+
+    width: 65%;
+}
+
+.intro-1-content h1 {
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.intro-1-content h3 {
+    font-size: 30px;
+    font-weight: 300;
+
+    margin: 0px;
+}
+
+.intro-2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+
+    background-color: rgba(59,59,59,0.09);
+
+    padding-top: 320px;
+
+    padding-bottom: 70px;
+}
+
+.intro-2-up {
+    background-color: white;
+    height: 270px;
+    width: 65vw;
+    border-radius: 15px;
+    color: #282c34;
+
+    position: absolute;
+    top: 740px;
+    left: calc(100vw/2 - 65vw/2);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+
+    color: black;
+
+    padding: 20px;
+}
+
+.sample {
+    height: 90%;
+}
+
+.intro-2-up-download {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.intro-2-up-download h3, p {
+    margin-top: 0px;
+}
+
+.intro-2-up-download-download {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro-2-up-download-download button {
+    padding: 20px;
+    margin: 0px 15px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    color: white;
+
+    border: 2px solid #630dff;
+    border-radius: 5px;
+
+    font-size: 15px;
+    font-weight: 700;
+
+    background-color: #630dff;
+}
+
+.intro-2-up-download-download button:hover {
+    color: #630dff;
+
+    background-color: white;
+
+    border: 2px solid #630dff;
+
+    text-decoration: underline;
+}
+
+#windows {
+    padding-right: 10px;
+}
+
+#android {
+    padding-right: 10px;
+}
+
+
+
+#news {
+    color: #2c2959;
+}
+
+.intro-2-content {
+    color: #282c34;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-2-content h1 {
+    font-weight: 600;
+    font-size: 50px;
+
+    margin: 20px 10px;
+}
+
+.intro-2-content-data {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-2-content-data div {
+    margin: 0px 40px;
+}
+
+.intro-2-content-data h3 {
+    font-weight: 700;
+    font-size: 35px;
+
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.intro-2-content-data-x {
+    width: 250px;
+}
+
+.intro-2-content-data h5 {
+    font-weight: 300;
+    font-size: 25px;
+
+    margin-top: 2px;
+}
+
+.intro-2-content button {
+    padding: 20px 50px;
+    margin-top: 10px;
+    color: white;
+
+    font-size: 25px;
+    font-weight: 400;
+
+    border: 0px;
+    border-radius: 5px;
+
+    background-color: #2c2959;
+}
+
+.intro-2-content button:hover {
+    background-color: #630dff;
+}
+
+.intro-3 {
+    background-color: white;
+
+    color: #282c34;
+}
+
+.intro-3 img {
+    height: 270px;
+}
+
+.intro-3-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-3-content h1 {
+    font-weight: 600;
+    font-size: 50px;
+
+    margin: 70px 10px 20px 10px;
+}
+
+.intro-3-content-script {
+    width: 65%;
+}
+
+.intro-3-content-script h3 {
+    font-weight: 300;
+    font-size: 25px;
+
+    margin-top: 0px;
+}
+
+.intro-3-n {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-3-ins-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    width: 70%;
+    margin-bottom: 40px;
+}
+
+.intro-3-ins-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    width: 70%;
+    margin-bottom: 40px;
+}
+
+.intro-3-ins-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    width: 70%;
+    margin-bottom: 40px;
+}
+
+.intro-3-x {
+    width: 40%;
+}
+
+.intro-3-y {
+    width: 60%;
+}
+
+.intro-3-n h3 {
+    font-weight: 600;
+    font-size: 35px;
+
+    margin: 0px;
+}
+
+.intro-3-n ul li {
+    font-weight: 400;
+    font-size: 20px;
+
+    color: rgba(8,8,21,0.56);
+}
+
+.intro-4 {
+    padding: 70px 0px;
+    background-color: #2c2959;
+}
+
+.intro-4 h1 {
+    font-weight: 600;
+    font-size: 50px;
+}
+
+.intro-4 img {
+    height: 300px;
+    padding: 20px;
+}
