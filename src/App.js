@@ -53,6 +53,9 @@ function App() {
                 <Route path="pricing" element={<Pricing />} />
                 <Route path="product" element={<ProductScreen />} />
             </Routes>
+            <footer>
+                Hello
+            </footer>
         </div>
   );
 }

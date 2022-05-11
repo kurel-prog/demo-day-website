@@ -118,7 +118,7 @@ function HomeScreen() {
                 <div >
                     <h1>Our supporter</h1>
                 </div>
-                <div>
+                <div className={'image-container'}>
                     <img src={sample} />
                     <img src={sample} />
                     <img src={sample} />
