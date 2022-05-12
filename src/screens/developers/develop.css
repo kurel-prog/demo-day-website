@@ -1,0 +1,154 @@
+.develop-place1
+{
+    width: 100%;
+    text-align: center;
+    margin: 80px 0;
+}
+.develop-place1 h1
+{
+    font-weight: 500;
+}
+
+.develop-place1 form
+{
+    width: 100%;
+}
+.develop-place1 input
+{
+    font-size: 18px;
+    height: 50px;
+    line-height: 24px;
+    padding: 13px 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 60%;
+}
+
+.develop-place2
+{
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 30px 80px;
+    align-items: center;
+    justify-content: space-around;
+    height: fit-content;
+    flex-wrap: wrap;
+}
+
+.develop-place2 .develop-place2-item
+{
+    height: 250px;
+    width: 445px;
+    color: #2c2959;
+    box-sizing: border-box;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    transition: transform 150ms ease-in-out;
+    box-shadow: 0 3px 6px rgb(11 33 74 / 9%), 0 -2px 2px rgb(11 33 74 / 3%);
+    font-size: 40px;
+}
+
+.develop-place2-item h3
+{
+    font-size: 30px;
+}
+.develop-place2-item p
+{
+    font-size: 20px;
+}
+
+.develop-place3
+{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 30px 80px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 1000px;
+    justify-content: space-between;
+    color: #2c2959;
+
+
+}
+
+.develop-place3 .develop-place3-item1
+{
+    box-sizing: border-box;
+    width: 60%;
+    background-color: #e9ebee;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: unset;
+    padding: 24px 30px;
+
+
+}
+
+.develop-place3-item1 h2
+{
+    margin-bottom: 0;
+    font-weight: 600;
+
+}
+
+.develop-place3-item1 h3
+{
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+.develop-place3-item1 .develop-item-container
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.develop-place3-item1 .develop-item-container a
+{
+    width: 50%;
+}
+
+.develop-place3 .develop-place3-item2
+{
+    width: 35%;
+    background-color: #e9ebee;
+    height: 300px;
+    padding: 24px 30px;
+    box-sizing: border-box;
+}
+
+.develop-place3-item2 h2
+{
+    margin: 0 0;
+}
+
+.develop-place3-item2 h4
+{
+    margin: 5px 0 30px 0;
+}
+
+.develop-place3 .develop-place3-item2 a{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    height: 55px;
+    text-decoration: none;
+}
+
+.develop-place3 .develop-place3-item2 a p{
+    line-height: 55px;
+    margin-left: 20px;
+}
+
+.develop-place3-link-video .develop-link-video img{
+    height: 45px;
+    width: 66px;
+}
