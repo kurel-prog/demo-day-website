@@ -1,6 +1,6 @@
 import './home.css';
 import {AiFillFacebook, AiFillTwitterSquare, AiFillInstagram, AiFillWindows, AiFillAndroid} from 'react-icons/ai';
-import sample from '../../assets/product_sample/sample.webp';
+import sample from '../../assets/sample.webp';
 
 function HomeScreen() {
     return (

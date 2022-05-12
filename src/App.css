@@ -61,11 +61,17 @@
 }
 
 .App-nav-get-started {
-  /*padding: 10px 24px;*/
-  /*border: 0px;*/
-  /*border-radius: 5px;*/
-  /*background-color: #630dff;*/
-  /*color: white;*/
-  /*font-weight: 700;*/
-  /*margin-right: 15px;*/
+  padding: 10px 24px;
+  border: 0px;
+  border-radius: 5px;
+  background-color: #0c81ef;
+  color: white;
+  font-weight: 700;
+  margin-right: 15px;
+  font-size: 18px;
+}
+
+.App-nav-get-started:hover
+{
+  cursor: pointer;
 }
