@@ -312,3 +312,119 @@
     height: 300px;
     padding: 20px;
 }
+/*Mobile*/
+@media only screen  and  (max-width: 740px)
+{
+    .intro-1-content h1 {
+        font-size: 30px;
+        font-weight: 600;
+    }
+    .intro-1-content h3 {
+        font-size: 28px;
+        font-weight: 300;
+        margin: 0px;
+    }
+    .intro-1
+    {
+        height: 300px;
+    }
+    .intro-2-up
+    {
+        height: 260px;
+        width: 79vw;
+        left: 53px;
+
+    }
+    .sample {
+        height: 60%;
+    }
+    .intro-2-up-download h3 {
+        margin-top: 0px;
+        font-size: 17px;
+    }
+    .intro-2-up-download p{
+        font-size: 15px;
+    }
+    .intro-2-up-download-download button
+    {
+        padding: 12px;
+        font-size: 15px;
+    }
+    .intro-2-content h1 {
+        font-weight: 600;
+        font-size: 34px;
+        margin: 20px 10px;
+    }
+    .intro-2-content-data h3 {
+        font-weight: 700;
+        font-size: 20px;
+        margin-top: 15px;
+        margin-bottom: 0px;
+    }
+    .intro-2-content-data-x {
+        width: 218px;
+    }
+    .intro-2-content-data div {
+        margin: 0px 10px;
+    }
+    .intro-3-content h1 {
+        font-weight: 600;
+        font-size: 33px;
+        margin: 50px 10px 20px 10px;
+    }
+    .intro-3-content-script h3 {
+        font-weight: 300;
+        font-size: 20px;
+        margin-top: 0px;
+    }
+    .intro-3-n h3 {
+        font-weight: 600;
+        font-size: 30px;
+        margin: 0px;
+    }
+    .intro-3 img {
+        height: 150px;
+    }
+    .intro-3-n ul li {
+        font-weight: 400;
+        font-size: 18px;
+        color: rgba(8,8,21,0.56);
+    }
+    .intro-3-ins-1,
+    .intro-3-ins-3,
+    .intro-3-ins-2
+    {
+        width: 90%;
+    }
+    .intro-4 h1 {
+        font-weight: 600;
+        font-size: 45px;
+    }
+    .intro-4 img {
+        height: 200px;
+        padding: 20px;
+    }
+}
+/*Tablet*/
+@media only screen  and (min-width: 740px) and (max-width: 1023px)
+{
+    .intro-2-up {
+        width: 74vw;
+        left: calc(100vw/2 - 74vw/2);
+    }
+    .intro-2-content-data-x {
+        width: 220px;
+    }
+    .intro-2-content-data div {
+        margin: 0px 30px;
+    }
+    .intro-3 img {
+        height: 230px;
+    }
+    .intro-3-ins-1,
+    .intro-3-ins-2,
+    .intro-3-ins-3
+    {
+        width: 90%;
+    }
+}
