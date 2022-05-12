@@ -40,6 +40,7 @@
     padding: 40px 30px 20px 30px;
     border-radius: 10px;
     width: 300px;
+    box-shadow: rgb(0 0 0 / 50%) 0px 0px 9px;
 }
 
 .tab-title{
@@ -56,6 +57,7 @@
     margin-top: 0px;
     text-align: left;
 }
+
 
 .infor-price {
     display: flex;
@@ -126,4 +128,54 @@
 
 .footer-icons #icon{
     margin-left: 10px;
+}
+
+/* Mobile*/
+@media only screen and (max-width:46.1875em){
+    .pricing-x {
+        flex-direction: column;
+    }
+    .pricing-title > h1{
+        font-size: 40px;
+        padding: 5px;
+        margin-top: 5px;
+        text-align: center;
+    }
+    .pricing-title > h3{
+        font-size: 20px;
+    }
+    .tab{
+        width: 240px;
+    }
+    .footer{
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+
+/*Tablet*/
+@media only screen and (min-width:46.25em) and (max-width:63.9375em){
+    .pricing-x {
+        flex-direction: column;
+    }
+    .pricing-title > h1{
+        font-size: 40px;
+        padding: 5px;
+        margin-top: 5px;
+        text-align: center;
+    }
+}
+
+/* ipad Pro*/
+@media only screen and (min-width:64em) and (max-width:82.5em){
+    .pricing-x{
+        flex-direction: column;
+    }
+    pricing-title > h1{
+        font-size: 50px;
+        padding: 5px;
+        margin-top: 5px;
+        text-align: center;
+    }
 }
