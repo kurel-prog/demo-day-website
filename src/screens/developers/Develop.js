@@ -1,6 +1,7 @@
 import './develop.css'
 import { FaRocket,FaDownload,FaBook } from "react-icons/fa";
 import video from "../../assets/developers_sample/video_img.svg"
+import {Footer} from "../home/HomeScreen";
 function DeveloperScreen() {
     return (
         <div className={'develop'}>
@@ -71,6 +72,7 @@ function DeveloperScreen() {
                 </div>
 
             </div>
+            <Footer/>
         </div>
     );
 }
