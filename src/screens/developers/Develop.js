@@ -3,7 +3,7 @@ import { FaRocket,FaDownload,FaBook } from "react-icons/fa";
 import video from "../../assets/developers_sample/video_img.svg"
 function DeveloperScreen() {
     return (
-        <div>
+        <div className={'develop'}>
             <div className={'develop-place1'}>
                 <h1>What can we help you find?</h1>
                 <form action={'/develop'} method={'get'}>

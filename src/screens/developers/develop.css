@@ -1,3 +1,8 @@
+.develop
+{
+    color: #2c2959;
+}
+
 .develop-place1
 {
     width: 100%;
@@ -68,7 +73,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    height: 1000px;
+    height: 480px;
     justify-content: space-between;
     color: #2c2959;
 
