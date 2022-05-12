@@ -157,3 +157,32 @@
     height: 45px;
     width: 66px;
 }
+/*Mobile*/
+@media only screen  and  (max-width: 739px)
+{
+    .develop-place3 .develop-place3-item2 {
+        width: 100%;
+    }
+    .develop-place3 {
+        height: 705px;
+    }
+    .develop-place3 .develop-place3-item1 {
+        box-sizing: border-box;
+        width: 100%;
+    }
+}
+
+/*Tablet*/
+@media only screen  and (min-width: 740px) and (max-width: 1023px)
+{
+    .develop-place3 .develop-place3-item2 {
+        width: 100%;
+    }
+    .develop-place3 {
+        height: 705px;
+    }
+    .develop-place3 .develop-place3-item1 {
+        box-sizing: border-box;
+        width: 100%;
+    }
+}
