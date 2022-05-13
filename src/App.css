@@ -84,6 +84,11 @@
   display: none;
 }
 
+.App-menu-respo-off
+{
+  display: none;
+}
+
 @media screen and (max-width: 1000px){
   .App-nav-bar-container
   {
