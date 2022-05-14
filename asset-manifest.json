@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "./static/css/main.c782dc4a.css",
+    "main.js": "./static/js/main.44b24cf5.js",
+    "static/js/787.dedaf9fb.chunk.js": "./static/js/787.dedaf9fb.chunk.js",
+    "static/media/thayTan.JPG": "./static/media/thayTan.9c568a239ea9070599f1.JPG",
+    "static/media/don.jpg": "./static/media/don.1db0b8353fc42b7fe39b.jpg",
+    "static/media/trung.jpg": "./static/media/trung.2a36f71fabbf6f3fee6c.jpg",
+    "static/media/duong.jpg": "./static/media/duong.e97c00873452812d428e.jpg",
+    "static/media/anhtai.jpg": "./static/media/anhtai.d7bff5d96c286d4ef663.jpg",
+    "static/media/logotypew.png": "./static/media/logotypew.762d3b19ad615085dd4a.png",
+    "static/media/phamtridang.jpg": "./static/media/phamtridang.3ed65f7ecad045540366.jpg",
+    "static/media/tongvuthandan.jpg": "./static/media/tongvuthandan.90d042e26fab613bd7b1.jpg",
+    "static/media/anh.jpg": "./static/media/anh.6f03c53fb44c125f155a.jpg",
+    "static/media/coPhuong.jpg": "./static/media/coPhuong.08521108973dbcbb52d1.jpg",
+    "static/media/sample.webp": "./static/media/sample.b30e73e6e8ccd236a601.webp",
+    "static/media/hominhnhat.jpg": "./static/media/hominhnhat.d01a309b333d2d098c5b.jpg",
+    "static/media/LOGO PIKABOOK.jpg": "./static/media/LOGO PIKABOOK.1eb07dbcda96c9daa470.jpg",
+    "index.html": "./index.html",
+    "static/media/video_img.svg": "./static/media/video_img.4d52d93dbe97926f2d0b505258af3b27.svg",
+    "main.c782dc4a.css.map": "./static/css/main.c782dc4a.css.map",
+    "main.44b24cf5.js.map": "./static/js/main.44b24cf5.js.map",
+    "787.dedaf9fb.chunk.js.map": "./static/js/787.dedaf9fb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c782dc4a.css",
+    "static/js/main.44b24cf5.js"
+  ]
+}
