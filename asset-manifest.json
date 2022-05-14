@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.c782dc4a.css",
-    "main.js": "./static/js/main.f5f94afb.js",
+    "main.css": "./static/css/main.b6502d96.css",
+    "main.js": "./static/js/main.c425eb62.js",
     "static/js/787.dedaf9fb.chunk.js": "./static/js/787.dedaf9fb.chunk.js",
     "static/media/thayTan.JPG": "./static/media/thayTan.9c568a239ea9070599f1.JPG",
     "static/media/don.jpg": "./static/media/don.1db0b8353fc42b7fe39b.jpg",
@@ -18,12 +18,12 @@
     "static/media/LOGO PIKABOOK.jpg": "./static/media/LOGO PIKABOOK.1eb07dbcda96c9daa470.jpg",
     "index.html": "./index.html",
     "static/media/video_img.svg": "./static/media/video_img.4d52d93dbe97926f2d0b505258af3b27.svg",
-    "main.c782dc4a.css.map": "./static/css/main.c782dc4a.css.map",
-    "main.f5f94afb.js.map": "./static/js/main.f5f94afb.js.map",
+    "main.b6502d96.css.map": "./static/css/main.b6502d96.css.map",
+    "main.c425eb62.js.map": "./static/js/main.c425eb62.js.map",
     "787.dedaf9fb.chunk.js.map": "./static/js/787.dedaf9fb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c782dc4a.css",
-    "static/js/main.f5f94afb.js"
+    "static/css/main.b6502d96.css",
+    "static/js/main.c425eb62.js"
   ]
 }
