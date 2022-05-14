@@ -57,7 +57,12 @@ function App() {
                     </div>
                 </div>
                 <div className={onNav?"App-menu-respo-on":"App-menu-respo-off"}>
+
                     <nav className='App-nav-bar' >
+                        <div className={'close-button'} onClick={()=>
+                        {
+                            setOnNav(!onNav)
+                        }}>X</div>
                         {
                             base_routers.map(
                                 item =>
@@ -80,37 +85,6 @@ function App() {
                     </nav>
                 </div>
             </div>
-//             <div className={'App-nav-respo-container-off'}>
-//                     <div className={'App-nav-menu-off'}>
-//                         <div className={'nav-respo-img--container'}>
-//                             <img className='App-nav-logo' src={logo} />
-//                         </div>
-//                         <nav className='App-nav-bar' >
-//                             {
-//                                 base_routers.map(
-//                                     item =>
-//                                         <button
-//                                             onClick={() => setOnScreen(item.component)}
-//                                             className={
-//                                                 onScreen === item.component ?
-//                                                     'App-nav-bar-link-container-active' :
-//                                                     'App-nav-bar-link-container'
-//                                             }
-//                                         >
-//                                             <Link className='App-nav-bar-link'
-//                                                   to={item.link}
-//                                             >
-//                                                 {item.component}
-//                                             </Link>
-//                                         </button>
-//                                 )
-//                             }
-//                         </nav>
-//                     </div>
-//                     <div className={'App-nav-respo-menu-icon'}>
-//                         <AiOutlineMenu/>
-//                     </div>
-//             </div>
             <Routes>
                 <Route path="/" element={<HomeScreen />} />
                 <Route path="about" element={<AboutUsScreen />} />
