@@ -72,7 +72,7 @@ function HomeScreen() {
                     <div className='intro-3-n'>
                         <div className='intro-3-ins-1'>
                             <div className='intro-3-x'>
-                                <img src={sample} />
+                                <img src={logo} />
                             </div>
                             <div className='intro-3-y'>
                                 <h3>Tài khoản</h3>
@@ -93,12 +93,12 @@ function HomeScreen() {
                                 </ul>
                             </div>
                             <div className='intro-3-x'>
-                                <img src={sample} />
+                                <img src={logo} />
                             </div>
                         </div>
                         <div className='intro-3-ins-3'>
                             <div className='intro-3-x'>
-                                <img src={sample} />
+                                <img src={logo} />
                             </div>
                             <div className='intro-3-y'>
                                 <h3>Kết nối</h3>
@@ -119,7 +119,7 @@ function HomeScreen() {
                                 </ul>
                             </div>
                             <div className='intro-3-x'>
-                                <img src={sample} />
+                                <img src={logo} />
                             </div>
                         </div>
                     </div>
