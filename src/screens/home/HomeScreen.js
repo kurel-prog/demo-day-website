@@ -1,7 +1,6 @@
 import './home.css';
 import {AiFillFacebook, AiFillTwitterSquare, AiFillInstagram } from 'react-icons/ai';
 
-
 function HomeScreen() {
     return (
         <div>
@@ -11,12 +10,12 @@ function HomeScreen() {
     );
 }
 
-const Footer = () => {
+export const Footer = () => {
     return (
         <div className=''>
             <div className=''>
                 <div>
-                    © 2022 Pikabook. <a href='https://github.com/kurel-prog'>kurel-prog</a>
+                    © 2022. <a href='https://www.facebook.com/PikaBook-114725921219915'>Pikabook</a>
                 </div>
                 <div>
                     <AiFillFacebook color='#fff' id='icon' size='2.5em' />
