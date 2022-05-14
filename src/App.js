@@ -42,11 +42,11 @@ function App() {
                                                     'App-nav-bar-link-container'
                                             }
                                         >
-                                            <Link className='App-nav-bar-link'
-                                                  to={item.link}
+                                            <div className='App-nav-bar-link'
+                                                //   to={item.link}
                                             >
                                                 {item.component}
-                                            </Link>
+                                            </div>
                                         </button>
                                 )
                             }
@@ -74,25 +74,32 @@ function App() {
                                                 'App-nav-bar-link-container'
                                         }
                                     >
-                                        <Link className='App-nav-bar-link'
-                                              to={item.link}
-                                        >
+                                        <div className='App-nav-bar-link'>
                                             {item.component}
-                                        </Link>
+                                        </div>
                                     </button>
                             )
                         }
                     </nav>
                 </div>
             </div>
-            <Routes>
+            {/* <Routes>
                 <Route path="/" element={<HomeScreen />} />
                 <Route path="about" element={<AboutUsScreen />} />
                 <Route path="blog" element={<BlogScreen />} />
                 <Route path="develop" element={<DeveloperScreen />} />
                 <Route path="pricing" element={<Pricing />} />
                 <Route path="product" element={<ProductScreen />} />
-            </Routes>
+            </Routes> */}
+            <div>
+                {
+                    onScreen === 'Home' ?
+                    <HomeScreen /> : onScreen === "Product" ? 
+                    <ProductScreen /> : onScreen === "Developers" ?
+                    <DeveloperScreen /> : onScreen === "Pricing" ?
+                    <Pricing /> : <AboutUsScreen />
+                }
+            </div>
             <Footer />
         </div>
     );
