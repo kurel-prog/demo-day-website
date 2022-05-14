@@ -15,44 +15,21 @@ import Footer from './components/Footer';
 
 function App() {
     const [onScreen, setOnScreen] = useState('Home');
+    const [onNav,setOnNav] = useState(false);
 
     useEffect(() => {}, [onScreen])
     return (
         <div>
-            <div className='App-nav-container' >
-                <div className='App-nav-logo-container'  >
-                    <img className='App-nav-logo' src={logo} />
-                </div>
-                <nav className='App-nav-bar' >
-                    {
-                        base_routers.map(
-                            item =>
-                                <button
-                                    onClick={() => setOnScreen(item.component)}
-                                    className={
-                                        onScreen === item.component ?
-                                            'App-nav-bar-link-container-active' :
-                                            'App-nav-bar-link-container'
-                                    }
-                                >
-                                    <Link className='App-nav-bar-link'
-                                        to={item.link}
-                                    >
-                                        {item.component}
-                                    </Link>
-                                </button>
-                        )
-                    }
-                </nav>
-                <div className='App-nav-get-started' >
-                    <button className='App-nav-get-started'>Get Started</button>
-                </div>
-            </div>
-            <div className={'App-nav-respo-container-off'}>
-                    <div className={'App-nav-menu-off'}>
-                        <div className={'nav-respo-img--container'}>
-                            <img className='App-nav-logo' src={logo} />
-                        </div>
+            <div className={'nav-fixed-container'}>
+                <div className='App-nav-container' >
+                    <div className='App-nav-logo-container'  >
+                        <img className='App-nav-logo' src={logo} />
+                        <p className={'menu-button'} onClick={()=>
+                        {
+                            setOnNav(!onNav)
+                        }}>Menu</p>
+                    </div>
+                    <div className={'App-nav-bar-container'}>
                         <nav className='App-nav-bar' >
                             {
                                 base_routers.map(
@@ -75,10 +52,65 @@ function App() {
                             }
                         </nav>
                     </div>
-                    <div className={'App-nav-respo-menu-icon'}>
-                        <AiOutlineMenu/>
+                    <div className='App-nav-get-started' >
+                        <button className='App-nav-get-started'>Get Started</button>
                     </div>
+                </div>
+                <div className={onNav?"App-menu-respo-on":"App-menu-respo-off"}>
+                    <nav className='App-nav-bar' >
+                        {
+                            base_routers.map(
+                                item =>
+                                    <button
+                                        onClick={() => setOnScreen(item.component)}
+                                        className={
+                                            onScreen === item.component ?
+                                                'App-nav-bar-link-container-active' :
+                                                'App-nav-bar-link-container'
+                                        }
+                                    >
+                                        <Link className='App-nav-bar-link'
+                                              to={item.link}
+                                        >
+                                            {item.component}
+                                        </Link>
+                                    </button>
+                            )
+                        }
+                    </nav>
+                </div>
             </div>
+//             <div className={'App-nav-respo-container-off'}>
+//                     <div className={'App-nav-menu-off'}>
+//                         <div className={'nav-respo-img--container'}>
+//                             <img className='App-nav-logo' src={logo} />
+//                         </div>
+//                         <nav className='App-nav-bar' >
+//                             {
+//                                 base_routers.map(
+//                                     item =>
+//                                         <button
+//                                             onClick={() => setOnScreen(item.component)}
+//                                             className={
+//                                                 onScreen === item.component ?
+//                                                     'App-nav-bar-link-container-active' :
+//                                                     'App-nav-bar-link-container'
+//                                             }
+//                                         >
+//                                             <Link className='App-nav-bar-link'
+//                                                   to={item.link}
+//                                             >
+//                                                 {item.component}
+//                                             </Link>
+//                                         </button>
+//                                 )
+//                             }
+//                         </nav>
+//                     </div>
+//                     <div className={'App-nav-respo-menu-icon'}>
+//                         <AiOutlineMenu/>
+//                     </div>
+//             </div>
             <Routes>
                 <Route path="/" element={<HomeScreen />} />
                 <Route path="about" element={<AboutUsScreen />} />
@@ -89,7 +121,7 @@ function App() {
             </Routes>
             <Footer />
         </div>
-  );
+    );
 }
 
 export default App;

@@ -1,27 +1,28 @@
 import './home.css';
-
 import {AiFillFacebook, AiFillTwitterSquare, AiFillInstagram, AiFillWindows, AiFillAndroid} from 'react-icons/ai';
-import sample from '../../assets/product_sample/sample.webp';
-
+import sample from '../../assets/sample.webp';
+import logo from  '../../assets/home_img/LOGO PIKABOOK.jpg'
 
 function HomeScreen() {
     return (
         <div>
             <div className='intro-1'>
                 <div className='intro-1-content'>
-                    <h1>This Is The First Quote. <br/>
-                        This Is The Second Quote.</h1>
-                    <h3>Build safer, share wider, run faster:<br/>
-                        New updates to our product subscriptions.</h3>
+                    <h1>Pikabook đọc sách để kết nối <br/>
+                        Nền tảng giáo trình số.</h1>
+                    <h3>Nơi đáng tin cậy để học giáo trình từ các trường đại học<br/>
+                        Đọc những cuốn sách bản quyền giá rẻ <br/>
+                        Tìm những người cùng sở thích
+                    </h3>
                 </div>
             </div>
             <div className='intro-2'>
                 <div className='intro-2-up'>
-                    <img src={sample} className='sample' />
+                    <img src={logo} className='sample' />
                     <div className='intro-2-up-download'>
                         <h3 id='news'>WHAT’S NEW</h3>
-                        <h3>Announcement</h3>
-                        <p>Docker announces Series C financing to accelerate how we enable developers to spend more time on innovation, less on everything else.</p>
+                        <h3>Pikabook đã có phiên bản mới</h3>
+                        <p>Tải Pikabook ngay</p>
                         <div className='intro-2-up-download-download'>
                             <button>
                                 <AiFillWindows id='windows' size='2.5em' />
@@ -115,6 +116,7 @@ function HomeScreen() {
                         </div>
                     </div>
                 </div>
+
             </div>
             <div className='intro-4'>
                 <div >
