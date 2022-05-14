@@ -11,28 +11,7 @@ import ProductScreen from "./screens/products/Product";
 import HomeScreen from "./screens/home/HomeScreen";
 import { AiOutlineMenu } from "react-icons/ai";
 import logoNav from "./assets/nav/LOGO PIKABOOK.jpg";
-
-const appNavMenuRes = document.querySelector('.App-nav-respo-container-off');
-const appNavMenuChild = document.querySelector('.App-nav-menu-off')
-const appButtonMenu = document.querySelector('.App-nav-respo-menu-icon')
-
-appButtonMenu.addEventListener('click', function (e)
-{
-    if(appNavMenuRes.className === "App-nav-respo-container-off") {
-        appNavMenuRes.className = "App-nav-respo-container-on"
-        appNavMenuChild.className="App-nav-menu-on"
-    }
-    else {
-        appNavMenuRes.className = "App-nav-respo-container-off"
-        appNavMenuChild.className="App-nav-menu-off"
-    }
-    e.stopPropagation()
-})
-
-appNavMenuRes.addEventListener('click',function ()
-{
-
-})
+import Footer from './components/Footer';
 
 function App() {
     const [onScreen, setOnScreen] = useState('Home');
@@ -108,6 +87,7 @@ function App() {
                 <Route path="pricing" element={<Pricing />} />
                 <Route path="product" element={<ProductScreen />} />
             </Routes>
+            <Footer />
         </div>
   );
 }

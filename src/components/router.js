@@ -15,10 +15,6 @@ const base_routers = [{
         component: 'Pricing',
     },
     {
-        link: '/blog',
-        component: 'Blogs',
-    },
-    {
         link: '/about',
         component: 'About Us',
     }
