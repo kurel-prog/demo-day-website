@@ -25,8 +25,8 @@ function ProductScreen() {
                 <div className={'product-place3-item1'}>
                     <img src={sample} className='sample' />
                     <div className={'product-place3-item1-part2'}>
-                        <h1>All the tools you need to get started quickly</h1>
-                        <h3>Docker Personal includes all the essentials to build, share, and run cloud-native applications.</h3>
+                        <h1>Việc của bạn bây giờ là tải Pikabook về nhanh nhất có thể</h1>
+                        <h3></h3>
                         <ul>
                             <li>Fast, local app development for MacOS and Windows with Docker Desktop</li>
                             <li>Fast, local app development for MacOS and Windows with Docker Desktop</li>
