@@ -1,7 +1,9 @@
 import './home.css';
+
 import {AiFillFacebook, AiFillTwitterSquare, AiFillInstagram, AiFillWindows, AiFillAndroid} from 'react-icons/ai';
 import sample from '../../assets/sample.webp';
 import logo from  '../../assets/home_img/LOGO PIKABOOK.jpg'
+
 function HomeScreen() {
     return (
         <div>
@@ -33,6 +35,7 @@ function HomeScreen() {
                             </button>
                         </div>
                     </div>
+
                 </div>
                 <div className='intro-2-content'>
                     <h1>

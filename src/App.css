@@ -178,5 +178,101 @@
     color: black;
     padding-bottom: 13px;
     font-size: 18px;
+  /*padding: 10px 24px;*/
+  /*border: 0px;*/
+  /*border-radius: 5px;*/
+  /*background-color: #630dff;*/
+  /*color: white;*/
+  /*font-weight: 700;*/
+  /*margin-right: 15px;*/
+}
+
+@media screen and (max-width: 1000px){
+  .App-nav-container
+  {
+    display: none;
+  }
+  .App-nav-menu-off {
+    display: none;
+  }
+  .App-nav-menu-on {
+    width: 90%;
+    height: 100%;
+    display: flex;
+  }
+  .App-nav-bar {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 73%;
+    justify-content: space-around;
+  }
+  .App-nav-respo-container-on
+  {
+    position: fixed;
+    width: 750px;
+    z-index: 3;
+    height: 150px;
+    font-size: 25px;
+    box-shadow: 0 3px 6px rgb(11 33 74 / 15%), 0 -2px 2px rgb(11 33 74 / 15%);
+    color: #2c2959;
+    top: 280px;
+    box-sizing: border-box;
+    text-align: center;
+    align-items: center;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    display: flex;
+    background-color: white;
+  }
+  .App-nav-respo-container-off
+  {
+    position: fixed;
+    z-index: 3;
+    height: 150px;
+    font-size: 25px;
+    box-shadow: 0 3px 6px rgb(11 33 74 / 15%), 0 -2px 2px rgb(11 33 74 / 15%);
+    color: #2c2959;
+    top: 280px;
+    box-sizing: border-box;
+    text-align: center;
+    align-items: center;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    display: flex;
+    background-color: white;
+  }
+  .App-nav-respo-menu-icon {
+    margin: auto;
+    border: 5px solid;
+    height: 80%;
+    border-top-color:white;
+    border-bottom-color: white;
+    border-right-color: white;
+    border-left-color: #2c2959;
+    display: flex;
+    align-items: center;
+  }
+  .nav-respo-img--container
+  {
+    height: 100%;
+    background-color: #0E97FF;
+    display: flex;
+    align-items: center;
+    width: 27%;
+  }
+  .App-nav-menu img
+  {
+    height: 60px;
+  }
+  .App-nav-bar-link {
+    color: #2c2959;
+    text-decoration: unset;
+    font-weight: 700;
+  }
+  .App-nav-bar button
+  {
+    margin: 0 0;
   }
 }
